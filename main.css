@@ -87,3 +87,19 @@ ul{
     margin-right: auto;
     max-width: 50rem;
 }
+
+.social-logo{
+  height: 2rem;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-ul li{
+  float: left;
+}
