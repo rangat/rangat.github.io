@@ -8,6 +8,30 @@ h1{
   font-size: 4rem;
 }
 
+li{
+  float: right;
+  padding: 1rem;
+  cursor: default;
+}
+
+li a:hover{
+  text-decoration: underline;
+}
+
+li a{
+  margin-top: 1rem;
+}
+
+ul{
+  list-style-type: none;
+  display: inline;
+}
+
+.font{
+  color: #E2E2E2;
+  font-family: 'Roboto Mono', monospace;
+}
+
 .content{
   padding-left: 7rem;
 }
@@ -16,13 +40,27 @@ h1{
   width: 120px;
 }
 
-.nav-bar{
+.logo-li{
+  float: left;
+  padding: 0;
+}
+
+.header-buttons{
+  min-width: -webkit-fill-available;
+}
+
+.header-bar{
   padding-top: 2rem;
   max-width: 70rem;
-  display: table;
-  position: absolute;
   height: 75%;
   width: 100%;
+  display: flex;
+}
+
+.nav-bar{
+  padding-top: 2rem;
+  font-size: 1.5rem;
+
 }
 
 .center{
@@ -33,7 +71,7 @@ h1{
 .outer {
     display: table;
     position: absolute;
-    height: 75%;
+    height: 60%;
     width: 100%;
 }
 
