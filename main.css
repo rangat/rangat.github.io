@@ -20,7 +20,7 @@ a{
   text-decoration: none;
 }
 
-li a:hover{
+a:hover{
   text-decoration: underline;
 }
 
@@ -38,6 +38,14 @@ h1{
   font-size: 40px;
   -webkit-margin-after: 0;
 }
+h4{
+  margin: 0;
+  font-size: 26px;
+}
+
+p{
+  margin: 0;
+}
 
 .r-logo{
   display: inline-block;
@@ -48,7 +56,7 @@ h1{
 }
 
 .body-container{
-  padding: 0 22%;
+  padding: 0 10%;
   padding-top: 25%;
   height: 100%;
 }
@@ -97,4 +105,11 @@ h1{
   font-size: 22px;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.profile{
+  width: 16rem;
+  float: left;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
 }
