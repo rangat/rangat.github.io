@@ -2,25 +2,26 @@ body{
   background: #1c1e2e;
   color: #E2E2E2;
   font-family: 'Roboto Mono', monospace;
+  text-rendering: optimizeLegibility;
+  padding: 0 22%;
 }
 
-h1{
-  font-size: 4rem;
-}
-
-li{
+nav{
+  display: inline;
   float: right;
-  padding: 1rem;
-  cursor: default;
+}
+
+nav ul li{
+  display: inline;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
 }
 
 li a:hover{
   text-decoration: underline;
-  color: #E2E2E2
-}
-
-li a{
-  margin-top: 1rem;
 }
 
 ul{
@@ -28,77 +29,72 @@ ul{
   display: inline;
 }
 
-.font{
-  color: #E2E2E2;
-  font-family: 'Roboto Mono', monospace;
+.footer-container li{
+  padding: 1rem;
+  cursor: default;
 }
 
-.content{
-  padding-left: 7rem;
+h1{
+  font-size: 40px;
+  -webkit-margin-after: 0;
 }
 
-.logo{
-  width: 120px;
+.r-logo{
+  display: inline-block;
 }
 
-.logo-li{
-  float: left;
-  padding: 0;
+.header-container{
+  margin-top: 5%;
 }
 
-.header-buttons{
-  min-width: -webkit-fill-available;
-  padding-right: 3rem;
+.body-container{
+  padding: 0 22%;
+  padding-top: 25%;
+  height: 100%;
 }
 
-.header-bar{
-  padding-top: 2rem;
-  width: -webkit-fill-available;
-  height: 75%;
-  width: 100%;
-  display: flex;
-}
-
-.nav-bar{
-  padding-top: 2rem;
-  font-size: 1.5rem;
-}
-
-.center{
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.outer {
-    display: table;
-    position: absolute;
-    height: 60%;
+.footer-container {
+    position: fixed;
+    right: 0;
+    bottom: 0;
     width: 100%;
+    padding: 0 22%;
+    text-align: center;
+}
+
+.footer-ul li{
+  float: left;
 }
 
 .middle {
-    display: table-cell;
+    display: flex;
     vertical-align: middle;
 }
 
 .inner {
     margin-left: auto;
     margin-right: auto;
-    max-width: 50rem;
+}
+
+.center-title{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo{
+  height: 64px;
 }
 
 .social-logo{
   height: 2rem;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
+.footer-ul li{
+  float: right;
 }
 
-.footer-ul li{
-  float: left;
+.nav-button{
+  font-size: 22px;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
