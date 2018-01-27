@@ -120,7 +120,7 @@ p{
     padding: 0;
   }
   h1{
-    font-size: 24px;
+    font-size: 28px;
   }
   h3{
     font-size: 12px;
@@ -128,6 +128,7 @@ p{
   nav{
     padding-right: 16px;
     padding-top: .25rem;
+    white-space: nowrap;
   }
   .logo{
     height: 32px;
@@ -139,6 +140,7 @@ p{
   .body-container{
     padding-left: 0;
     padding-right: 0;
+    white-space: nowrap;
   }
   .footer-container{
     padding: 0;
