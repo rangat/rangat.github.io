@@ -114,3 +114,31 @@ p{
   padding-right: 1rem;
   padding-bottom: 1rem;
 }
+
+@media screen and (max-width:1080px){
+  body{
+    padding: 0;
+  }
+  h1{
+    font-size: 20px;
+  }
+  h3{
+    font-size: 12px;
+  }
+  nav{
+    padding-right: 16px;
+  }
+  .nav-button{
+    font-size: 18px;
+  }
+  .body-container{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .footer-container{
+    padding: 0;
+  }
+  .social-logo{
+    height: 1.4rem;
+  }
+}
