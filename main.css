@@ -115,7 +115,12 @@ p{
   padding-bottom: 1rem;
 }
 
-@media screen and (max-width:1080px){
+/***************************************************************
+ *                         RESPONSIVE                          *
+ ***************************************************************/
+
+
+@media screen and (max-width:940px){
   body{
     padding: 0;
   }
@@ -125,10 +130,16 @@ p{
   h3{
     font-size: 12px;
   }
+  h4{
+    margin: 0 1rem;
+  }
   nav{
     padding-right: 16px;
     padding-top: .25rem;
     white-space: nowrap;
+  }
+  p{
+    margin: 0 1rem;
   }
   .logo{
     height: 32px;
@@ -140,8 +151,10 @@ p{
   .body-container{
     padding-left: 0;
     padding-right: 0;
-    white-space: nowrap;
   }
+
+
+
   .footer-container{
     padding: 0;
   }
